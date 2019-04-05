@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>Awesome meeting experience</title>
+  <link rel="stylesheet" href="css/collab-ui.min.css" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="row">
+    <div class="columns medium-10 medium-centered">
+      <h1>Awesome meeting experience</h1>
+        <h3>Hi {{ name }}! </h3>
+        <p>
+          Thanks for joining the meeting on {{ topic }} today.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="columns medium-10 medium-centered">
+        <p>
+          Please choose a color that will represent you on your meeting
+          experience.
+        </p>
+        <div class="row">
+          <div class="columns medium-5 cui-input-group">
+            <label class="cui-label" for="red_color">Red</label>
+            <input class="cui-input" id="red_color" max="255" min="0" type="number" placeholder="Red">
+            <label class="cui-label" for="green_color">Green</label>
+            <input class="cui-input" id="green_color" max="255" min="0" type="number" placeholder="Green">
+            <label class="cui-label" for="blue_color">Blue</label>
+            <input class="cui-input" id="blue_color" max="255" min="0" type="number" placeholder="Blue">
+            <input class="cui-input" disabled id="color" type="text">
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="columns medium-10 medium-centered">
+      <button type="button" class="cui-button cui-button--yellow">I just want to check</button>
+      <button type="button" class="cui-button cui-button--green">I am here</button>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+  function update_color(){
+    var red = $('#red_color').val();
+    var green = $('#green_color').val();
+    var blue = $('#blue_color').val();
+
+    $('#color').css("background-color", "rgb(" + red + "," + green + "," + blue + ")");
+  }
+  $('#red_color, #green_color, #blue_color').on('change', function(){
+    update_color();
+  });
+</script>
+</html>

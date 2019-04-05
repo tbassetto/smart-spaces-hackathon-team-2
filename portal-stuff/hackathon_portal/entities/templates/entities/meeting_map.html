@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="https://api.mazemap.com/js/v2.0.12/mazemap.min.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+    <script type='text/javascript' src='https://api.mazemap.com/js/v2.0.12/mazemap.min.js'></script>
+    <style>
+        body { margin:0px; padding:0px; width: 100vw; height:100vh; }
+    </style>
+</head>
+<body>
+    <h1>Attendees for {{ meeting.title }}</h1>
+    <div id="map" class="mazemap"></div>
+
+    <script>
+      Mazemap.Config.setApiBaseUrl("https://api.mazemap.com");
+        var myMap = new Mazemap.Map({
+            container: 'map',
+            campuses: 345,
+            center: {lat: 59.9100110356112, lng: 10.6257664378445 },
+            zLevel: 1,
+            zoom: 18,
+            scrollZoom: true,
+            doubleClickZoom: true,
+            touchZoomRotate: true,
+            zLevelControl: true
+        });
+        {% if type == "overview" %}
+          var marker_in = new Mazemap.MazeMarker({
+              zLevel: 1
+          }).setLngLat({ lat: 59.90996556795713, lng: 10.625879151085266}).addTo(myMap);
+
+          var marker_out = new Mazemap.MazeMarker({
+            zLevel: 1,
+            color: "MazeRed",
+          }).setLngLat({ lat: 59.91008822603314, lng: 10.626261489752778}).addTo(myMap);
+        {% else %}
+        var marker_out = new Mazemap.MazeMarker({
+          zLevel: 1,
+          color: "MazeRed",
+        }).setLngLat({ lat: 59.91008822603314, lng: 10.626261489752778}).addTo(myMap);
+        {% endif %}
+    </script>
+</body>

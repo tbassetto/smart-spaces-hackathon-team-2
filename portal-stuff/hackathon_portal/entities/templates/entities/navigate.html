@@ -1,0 +1,85 @@
+{% extends 'entities/base.html' %}
+{% block content %}
+<div class="col-md-12">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="map" style="height: 80vh;" class="mazemap"></div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 80vh;">
+    <div class="col-md-12">
+      <br>
+      <center>
+        <button class="btn btn-danger" id="btn_really-lost">I am really lost. Fetch me ... please?</button>
+      </center>
+    </div>
+  </div>
+</div>
+<div class="modal" id="fetchMeModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">It's all good {{ person.first_name }}</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p>No worries! {{ meeting.location.first_name }} is on his way to fetch you. Stay where you are. </p>
+        <p>In the mean time take a look at this sleepy hedgehog</p>
+        <img src="https://exopetguides.com/wp-content/uploads/2018/08/hedgehog-sleeping-800x532.jpg" class="img img-fluid">
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block js %}
+Mazemap.Config.setApiBaseUrl("https://api.mazemap.com");
+var myMap = new Mazemap.Map({
+    container: 'map',
+    campuses: 345,
+    center: {lng: {{ meeting.location.lng }}, lat: {{ meeting.location.lat }} },
+    zoom: 18,
+    scrollZoom: true,
+    doubleClickZoom: true,
+    touchZoomRotate: true,
+    zLevelControl: true
+});
+
+myMap.on('load', function(){
+  var start = { poiId: 887194 };
+  var dest = { poiId: 862324 };
+  var routeController = new Mazemap.RouteController(myMap);
+
+  Mazemap.Data.getRouteJSON(start, dest)
+  .then(function(geojson){
+      routeController.setPath(geojson);
+
+      // Fit the map bounds to the path bounding box
+      var bounds = Mazemap.Util.Turf.bbox(geojson);
+      myMap.fitBounds( bounds, {padding: 100} );
+  });
+
+});
+
+$('#btn_really-lost').on('click', function(){
+  $.get( "http://192.168.1.246:8080/notify/{{ meeting.meeting_id }}/person/{{ person.id}}");
+  $('#fetchMeModal').modal('show');
+});
+{% endblock %}
+{% block header %}
+<link rel="stylesheet" href="https://api.mazemap.com/js/v2.0.12/mazemap.min.css">
+<script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script type='text/javascript' src='https://api.mazemap.com/js/v2.0.12/mazemap.min.js'></script>
+{% endblock %}
