@@ -1,0 +1,656 @@
+1554385819: mosquitto version 1.4.15 (build date Sat, 07 Apr 2018 11:13:41 +0100) starting
+1554385819: Config loaded from /mqtt/config/mosquitto.conf.
+1554385819: Opening websockets listen socket on port 9001.
+1554385833: mosquitto version 1.4.15 terminating
+1554386057: mosquitto version 1.5.8 starting
+1554386057: Config loaded from /mosquitto/config/mosquitto.conf.
+1554386057: Opening ipv4 listen socket on port 1883.
+1554386057: Opening ipv6 listen socket on port 1883.
+1554386106: mosquitto version 1.5.8 terminating
+1554386109: mosquitto version 1.5.8 starting
+1554386109: Config loaded from /mosquitto/config/mosquitto.conf.
+1554386109: Opening websockets listen socket on port 9001.
+1554386130: mosquitto version 1.5.8 terminating
+1554386134: mosquitto version 1.5.8 starting
+1554386134: Config loaded from /mosquitto/config/mosquitto.conf.
+1554386134: Opening websockets listen socket on port 9001.
+1554386294: mosquitto version 1.5.8 terminating
+1554386311: mosquitto version 1.5.8 starting
+1554386311: Config loaded from /mosquitto/config/mosquitto.conf.
+1554386311: Opening websockets listen socket on port 9001.
+1554386311: Opening ipv4 listen socket on port 1883.
+1554386311: Opening ipv6 listen socket on port 1883.
+1554386319: New connection from 172.17.0.1 on port 1883.
+1554386319: New client connected from 172.17.0.1 as b5f415d8c7a84fbda9d8222ce5afe0dc (c1, k60).
+1554386564: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554386622: Socket error on client NeverLostLightController, disconnecting.
+1554386624: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554386639: New connection from 172.17.0.1 on port 1883.
+1554386639: New client connected from 172.17.0.1 as MQTT_FX_Client (c1, k60).
+1554387178: New connection from 172.17.0.1 on port 1883.
+1554387178: Socket error on client <unknown>, disconnecting.
+1554387214: New connection from 172.17.0.1 on port 1883.
+1554387214: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554387214: Socket error on client JBS-PY-001, disconnecting.
+1554387237: New connection from 172.17.0.1 on port 1883.
+1554387237: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554387237: Socket error on client JBS-PY-001, disconnecting.
+1554387239: Socket error on client NeverLostLightController, disconnecting.
+1554387260: New connection from 172.17.0.1 on port 1883.
+1554387260: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554387260: Socket error on client JBS-PY-001, disconnecting.
+1554387280: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554388110: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554388739: Socket error on client NeverLostLightController, disconnecting.
+1554388741: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554388861: New connection from 172.17.0.1 on port 1883.
+1554388861: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554388861: Socket error on client JBS-PY-001, disconnecting.
+1554389910: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554391223: Socket error on client NeverLostLightController, disconnecting.
+1554391228: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554391334: Socket error on client NeverLostLightController, disconnecting.
+1554391338: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554391405: Socket error on client NeverLostLightController, disconnecting.
+1554391408: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554391516: Socket error on client NeverLostLightController, disconnecting.
+1554391518: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554391709: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554391723: New connection from 172.17.0.1 on port 1883.
+1554391723: Client NeverLostLightController already connected, closing old connection.
+1554391723: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554391723: Socket error on client NeverLostLightController, disconnecting.
+1554391878: Socket error on client NeverLostLightController, disconnecting.
+1554391879: New connection from 172.17.0.1 on port 1883.
+1554391879: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554391898: Socket error on client NeverLostLightController, disconnecting.
+1554391901: New connection from 172.17.0.1 on port 1883.
+1554391901: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554391907: Socket error on client NeverLostLightController, disconnecting.
+1554391909: New connection from 172.17.0.1 on port 1883.
+1554391909: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554391961: Socket error on client NeverLostLightController, disconnecting.
+1554391963: New connection from 172.17.0.1 on port 1883.
+1554391963: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554392063: Socket error on client NeverLostLightController, disconnecting.
+1554392065: New connection from 172.17.0.1 on port 1883.
+1554392065: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554392085: Socket error on client NeverLostLightController, disconnecting.
+1554392088: New connection from 172.17.0.1 on port 1883.
+1554392088: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554392143: Socket error on client NeverLostLightController, disconnecting.
+1554392180: New connection from 172.17.0.1 on port 1883.
+1554392180: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554392205: Socket error on client NeverLostLightController, disconnecting.
+1554392205: New connection from 172.17.0.1 on port 1883.
+1554392205: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554392215: Client NeverLostLightController disconnected.
+1554392246: New connection from 172.17.0.1 on port 1883.
+1554392246: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554392383: Socket error on client NeverLostLightController, disconnecting.
+1554392383: New connection from 172.17.0.1 on port 1883.
+1554392383: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554392987: Client MQTT_FX_Client has exceeded timeout, disconnecting.
+1554392987: Socket error on client MQTT_FX_Client, disconnecting.
+1554393509: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554394283: Socket error on client NeverLostLightController, disconnecting.
+1554395309: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554407120: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554407113: Client b5f415d8c7a84fbda9d8222ce5afe0dc has exceeded timeout, disconnecting.
+1554407113: Socket error on client b5f415d8c7a84fbda9d8222ce5afe0dc, disconnecting.
+1554417989: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554419788: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554420006: mosquitto version 1.5.8 terminating
+1554444533: mosquitto version 1.5.8 starting
+1554444533: Config loaded from /mosquitto/config/mosquitto.conf.
+1554444533: Opening websockets listen socket on port 9001.
+1554444534: Opening ipv4 listen socket on port 1883.
+1554444534: Opening ipv6 listen socket on port 1883.
+1554444763: New connection from 172.17.0.1 on port 1883.
+1554444763: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554444766: Socket error on client JBS-PY-001, disconnecting.
+1554445103: New connection from 172.17.0.1 on port 1883.
+1554445103: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554445104: Socket error on client JBS-PY-001, disconnecting.
+1554446333: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554448107: New connection from 172.17.0.1 on port 1883.
+1554448107: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554448133: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554448239: Socket error on client NeverLostLightController, disconnecting.
+1554448250: New connection from 172.17.0.1 on port 1883.
+1554448250: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554448267: Socket error on client NeverLostLightController, disconnecting.
+1554448268: New connection from 172.17.0.1 on port 1883.
+1554448268: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554448289: Socket error on client NeverLostLightController, disconnecting.
+1554448289: New connection from 172.17.0.1 on port 1883.
+1554448289: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554448391: Socket error on client NeverLostLightController, disconnecting.
+1554448391: New connection from 172.17.0.1 on port 1883.
+1554448391: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554448397: Socket error on client NeverLostLightController, disconnecting.
+1554448397: New connection from 172.17.0.1 on port 1883.
+1554448397: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554448414: Socket error on client NeverLostLightController, disconnecting.
+1554448415: New connection from 172.17.0.1 on port 1883.
+1554448415: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554448430: Socket error on client NeverLostLightController, disconnecting.
+1554448431: New connection from 172.17.0.1 on port 1883.
+1554448431: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554448438: Socket error on client NeverLostLightController, disconnecting.
+1554448438: New connection from 172.17.0.1 on port 1883.
+1554448438: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554448446: Socket error on client NeverLostLightController, disconnecting.
+1554448447: New connection from 172.17.0.1 on port 1883.
+1554448447: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554448471: Socket error on client NeverLostLightController, disconnecting.
+1554448471: New connection from 172.17.0.1 on port 1883.
+1554448471: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554449282: Client NeverLostLightController has exceeded timeout, disconnecting.
+1554449282: Socket error on client NeverLostLightController, disconnecting.
+1554449933: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554450486: New connection from 172.17.0.1 on port 1883.
+1554450486: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554450486: Socket error on client JBS-PY-001, disconnecting.
+1554450525: New connection from 172.17.0.1 on port 1883.
+1554450525: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554450526: Socket error on client JBS-PY-001, disconnecting.
+1554450562: New connection from 172.17.0.1 on port 1883.
+1554450562: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554450562: Socket error on client JBS-PY-001, disconnecting.
+1554450569: New connection from 172.17.0.1 on port 1883.
+1554450569: New client connected from 172.17.0.1 as b5f415d8c7a84fbda9d8222ce5afe0dc (c1, k60).
+1554450583: New connection from 172.17.0.1 on port 1883.
+1554450583: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450584: New connection from 172.17.0.1 on port 1883.
+1554450584: Client CSCO-MNEIDING already connected, closing old connection.
+1554450584: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450584: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450589: New connection from 172.17.0.1 on port 1883.
+1554450589: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554450602: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450602: New connection from 172.17.0.1 on port 1883.
+1554450602: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450611: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450612: New connection from 172.17.0.1 on port 1883.
+1554450612: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450613: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450614: New connection from 172.17.0.1 on port 1883.
+1554450614: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450614: New connection from 172.17.0.1 on port 1883.
+1554450614: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554450614: Socket error on client JBS-PY-001, disconnecting.
+1554450614: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450614: New connection from 172.17.0.1 on port 1883.
+1554450614: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450615: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450615: New connection from 172.17.0.1 on port 1883.
+1554450615: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450617: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450617: New connection from 172.17.0.1 on port 1883.
+1554450617: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450619: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450619: New connection from 172.17.0.1 on port 1883.
+1554450619: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450655: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450656: New connection from 172.17.0.1 on port 1883.
+1554450656: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450657: New connection from 172.17.0.1 on port 1883.
+1554450657: Client CSCO-MNEIDING already connected, closing old connection.
+1554450657: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450657: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450686: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450687: New connection from 172.17.0.1 on port 1883.
+1554450687: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450695: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450711: New connection from 172.17.0.1 on port 1883.
+1554450711: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554450711: Socket error on client CSCO-MNEIDING, disconnecting.
+1554450794: New connection from 172.17.0.1 on port 1883.
+1554450794: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554450796: Socket error on client JBS-PY-001, disconnecting.
+1554450956: New connection from 172.17.0.1 on port 1883.
+1554450956: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554450958: Socket error on client JBS-PY-001, disconnecting.
+1554450980: Socket error on client NeverLostLightController, disconnecting.
+1554450981: New connection from 172.17.0.1 on port 1883.
+1554450981: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554450998: New connection from 172.17.0.1 on port 1883.
+1554450998: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554450998: Socket error on client JBS-PY-001, disconnecting.
+1554451175: Socket error on client NeverLostLightController, disconnecting.
+1554451176: New connection from 172.17.0.1 on port 1883.
+1554451176: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451270: Client NeverLostLightController already connected, closing old connection.
+1554451270: Socket error on client NeverLostLightController, disconnecting.
+1554451270: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554451271: New connection from 172.17.0.1 on port 1883.
+1554451271: Client NeverLostLightController already connected, closing old connection.
+1554451271: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451271: Socket error on client NeverLostLightController, disconnecting.
+1554451318: Client NeverLostLightController already connected, closing old connection.
+1554451318: Socket error on client NeverLostLightController, disconnecting.
+1554451318: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554451319: New connection from 172.17.0.1 on port 1883.
+1554451319: Client NeverLostLightController already connected, closing old connection.
+1554451319: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451319: Socket error on client NeverLostLightController, disconnecting.
+1554451390: New connection from 172.17.0.1 on port 1883.
+1554451390: New client connected from 172.17.0.1 as MQTT_FX_Client (c1, k60).
+1554451436: Socket error on client NeverLostLightController, disconnecting.
+1554451437: New connection from 172.17.0.1 on port 1883.
+1554451437: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451479: Client NeverLostLightController already connected, closing old connection.
+1554451479: Socket error on client NeverLostLightController, disconnecting.
+1554451479: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554451480: New connection from 172.17.0.1 on port 1883.
+1554451480: Client NeverLostLightController already connected, closing old connection.
+1554451480: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451480: Socket error on client NeverLostLightController, disconnecting.
+1554451603: Client NeverLostLightController already connected, closing old connection.
+1554451603: Socket error on client NeverLostLightController, disconnecting.
+1554451603: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554451605: New connection from 172.17.0.1 on port 1883.
+1554451605: Client NeverLostLightController already connected, closing old connection.
+1554451605: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451605: Socket error on client NeverLostLightController, disconnecting.
+1554451722: Socket error on client NeverLostLightController, disconnecting.
+1554451723: New connection from 172.17.0.1 on port 1883.
+1554451723: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451731: New connection from 172.17.0.1 on port 1883.
+1554451731: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554451731: Socket error on client CSCO-MNEIDING, disconnecting.
+1554451732: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554451751: Client MQTT_FX_Client disconnected.
+1554451768: mosquitto version 1.5.8 terminating
+1554451774: mosquitto version 1.5.8 starting
+1554451774: Config loaded from /mosquitto/config/mosquitto.conf.
+1554451774: Opening websockets listen socket on port 9001.
+1554451774: Opening ipv4 listen socket on port 1883.
+1554451774: Opening ipv6 listen socket on port 1883.
+1554451775: New connection from 172.17.0.1 on port 1883.
+1554451775: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451781: Client NeverLostLightController already connected, closing old connection.
+1554451781: Socket error on client NeverLostLightController, disconnecting.
+1554451781: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554451782: New connection from 172.17.0.1 on port 1883.
+1554451782: Client NeverLostLightController already connected, closing old connection.
+1554451782: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451782: Socket error on client NeverLostLightController, disconnecting.
+1554451798: Client NeverLostLightController already connected, closing old connection.
+1554451798: Socket error on client NeverLostLightController, disconnecting.
+1554451798: New client connected from ::ffff:172.17.0.1 as NeverLostLightController (c1, k60).
+1554451799: New connection from 172.17.0.1 on port 1883.
+1554451799: Client NeverLostLightController already connected, closing old connection.
+1554451799: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451799: Socket error on client NeverLostLightController, disconnecting.
+1554451820: Socket error on client NeverLostLightController, disconnecting.
+1554451820: New connection from 172.17.0.1 on port 1883.
+1554451820: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451845: Socket error on client NeverLostLightController, disconnecting.
+1554451846: New connection from 172.17.0.1 on port 1883.
+1554451846: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451864: New connection from 172.17.0.1 on port 1883.
+1554451864: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554451864: Socket error on client CSCO-MNEIDING, disconnecting.
+1554451883: Socket error on client NeverLostLightController, disconnecting.
+1554451883: New connection from 172.17.0.1 on port 1883.
+1554451883: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451889: Socket error on client NeverLostLightController, disconnecting.
+1554451889: New connection from 172.17.0.1 on port 1883.
+1554451889: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451893: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554451898: New connection from 172.17.0.1 on port 1883.
+1554451898: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554451898: Socket error on client CSCO-MNEIDING, disconnecting.
+1554451909: Socket error on client NeverLostLightController, disconnecting.
+1554451910: New connection from 172.17.0.1 on port 1883.
+1554451910: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554451913: New connection from 172.17.0.1 on port 1883.
+1554451913: New client connected from 172.17.0.1 as MQTT_FX_Client (c1, k60).
+1554451957: Socket error on client NeverLostLightController, disconnecting.
+1554451958: New connection from 172.17.0.1 on port 1883.
+1554451958: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554452118: Socket error on client Signify, disconnecting.
+1554452121: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554452123: New connection from 172.17.0.1 on port 1883.
+1554452123: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554452123: Socket error on client CSCO-MNEIDING, disconnecting.
+1554452235: Socket error on client Signify, disconnecting.
+1554452238: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554452325: Socket error on client Signify, disconnecting.
+1554452327: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554452440: Socket error on client Signify, disconnecting.
+1554452443: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554452730: Socket error on client Signify, disconnecting.
+1554452732: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554452793: Socket error on client Signify, disconnecting.
+1554452795: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554452946: Client Signify already connected, closing old connection.
+1554452946: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554452946: Socket error on client Signify, disconnecting.
+1554452971: Client Signify already connected, closing old connection.
+1554452971: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554452971: Socket error on client Signify, disconnecting.
+1554453000: Client Signify already connected, closing old connection.
+1554453000: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554453000: Socket error on client Signify, disconnecting.
+1554453023: Socket error on client Signify, disconnecting.
+1554453036: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554453182: Socket error on client Signify, disconnecting.
+1554453185: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554453190: Client Signify already connected, closing old connection.
+1554453190: New client connected from ::ffff:172.17.0.1 as Signify (c1, k60).
+1554453190: Socket error on client Signify, disconnecting.
+1554453266: Socket error on client Signify, disconnecting.
+1554453270: New client connected from ::ffff:172.17.0.1 as SignifyLost (c1, k60).
+1554453274: New client connected from ::ffff:172.17.0.1 as SignifyHelp (c1, k60).
+1554453477: Socket error on client NeverLostLightController, disconnecting.
+1554453477: New connection from 172.17.0.1 on port 1883.
+1554453477: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554453512: New connection from 172.17.0.1 on port 1883.
+1554453512: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554453515: Socket error on client JBS-PY-001, disconnecting.
+1554453574: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554453845: New connection from 172.17.0.1 on port 1883.
+1554453845: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554453845: Socket error on client JBS-PY-001, disconnecting.
+1554453873: New connection from 172.17.0.1 on port 1883.
+1554453873: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554453873: Socket error on client JBS-PY-001, disconnecting.
+1554453904: New connection from 172.17.0.1 on port 1883.
+1554453904: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554453904: Socket error on client JBS-PY-001, disconnecting.
+1554453917: New connection from 172.17.0.1 on port 1883.
+1554453917: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554453917: Socket error on client JBS-PY-001, disconnecting.
+1554453934: New connection from 172.17.0.1 on port 1883.
+1554453934: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554453935: Socket error on client JBS-PY-001, disconnecting.
+1554453956: New connection from 172.17.0.1 on port 1883.
+1554453956: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554453956: Socket error on client JBS-PY-001, disconnecting.
+1554453981: New connection from 172.17.0.1 on port 1883.
+1554453981: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554453981: Socket error on client JBS-PY-001, disconnecting.
+1554454000: New connection from 172.17.0.1 on port 1883.
+1554454000: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554454000: Socket error on client JBS-PY-001, disconnecting.
+1554454009: New connection from 172.17.0.1 on port 1883.
+1554454009: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554454009: Socket error on client JBS-PY-001, disconnecting.
+1554454028: New connection from 172.17.0.1 on port 1883.
+1554454028: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554454029: Socket error on client JBS-PY-001, disconnecting.
+1554454047: New connection from 172.17.0.1 on port 1883.
+1554454047: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554454047: Socket error on client JBS-PY-001, disconnecting.
+1554454067: New connection from 172.17.0.1 on port 1883.
+1554454067: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554454067: Socket error on client JBS-PY-001, disconnecting.
+1554454089: New connection from 172.17.0.1 on port 1883.
+1554454089: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554454090: Socket error on client JBS-PY-001, disconnecting.
+1554454107: New connection from 172.17.0.1 on port 1883.
+1554454107: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554454107: Socket error on client CSCO-MNEIDING, disconnecting.
+1554454169: New connection from 172.17.0.1 on port 1883.
+1554454169: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554454171: Socket error on client JBS-PY-001, disconnecting.
+1554454575: Socket error on client NeverLostLightController, disconnecting.
+1554454575: New connection from 172.17.0.1 on port 1883.
+1554454575: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554454646: Socket error on client NeverLostLightController, disconnecting.
+1554454647: New connection from 172.17.0.1 on port 1883.
+1554454647: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554454657: Socket error on client NeverLostLightController, disconnecting.
+1554454657: New connection from 172.17.0.1 on port 1883.
+1554454657: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554454659: Socket error on client NeverLostLightController, disconnecting.
+1554454659: New connection from 172.17.0.1 on port 1883.
+1554454659: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554454716: Socket error on client NeverLostLightController, disconnecting.
+1554454717: New connection from 172.17.0.1 on port 1883.
+1554454717: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554454743: New connection from 172.17.0.1 on port 1883.
+1554454743: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554454744: Socket error on client JBS-PY-001, disconnecting.
+1554454781: Socket error on client NeverLostLightController, disconnecting.
+1554454781: New connection from 172.17.0.1 on port 1883.
+1554454781: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554454793: New connection from 172.17.0.1 on port 1883.
+1554454793: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554454793: Socket error on client JBS-PY-001, disconnecting.
+1554454827: Socket error on client NeverLostLightController, disconnecting.
+1554454828: New connection from 172.17.0.1 on port 1883.
+1554454828: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554454892: Socket error on client NeverLostLightController, disconnecting.
+1554454892: New connection from 172.17.0.1 on port 1883.
+1554454892: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554454908: Socket error on client NeverLostLightController, disconnecting.
+1554454908: New connection from 172.17.0.1 on port 1883.
+1554454908: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554455086: Socket error on client NeverLostLightController, disconnecting.
+1554455086: New connection from 172.17.0.1 on port 1883.
+1554455086: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554455203: Socket error on client NeverLostLightController, disconnecting.
+1554455204: New connection from 172.17.0.1 on port 1883.
+1554455204: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554455210: Socket error on client NeverLostLightController, disconnecting.
+1554455211: New connection from 172.17.0.1 on port 1883.
+1554455211: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554455262: New connection from 172.17.0.1 on port 1883.
+1554455262: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554455264: Socket error on client JBS-PY-001, disconnecting.
+1554455306: Socket error on client NeverLostLightController, disconnecting.
+1554455306: New connection from 172.17.0.1 on port 1883.
+1554455306: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554455311: New connection from 172.17.0.1 on port 1883.
+1554455311: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554455313: Socket error on client JBS-PY-001, disconnecting.
+1554455327: Socket error on client NeverLostLightController, disconnecting.
+1554455328: New connection from 172.17.0.1 on port 1883.
+1554455328: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554455374: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554455441: New connection from 172.17.0.1 on port 1883.
+1554455441: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554455442: Socket error on client JBS-PY-001, disconnecting.
+1554455506: New connection from 172.17.0.1 on port 1883.
+1554455506: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554455508: Socket error on client JBS-PY-001, disconnecting.
+1554455536: New connection from 172.17.0.1 on port 1883.
+1554455536: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554455537: Socket error on client JBS-PY-001, disconnecting.
+1554455543: New connection from 172.17.0.1 on port 1883.
+1554455543: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554455544: Socket error on client JBS-PY-001, disconnecting.
+1554455551: New connection from 172.17.0.1 on port 1883.
+1554455551: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554455551: Socket error on client JBS-PY-001, disconnecting.
+1554455580: New connection from 172.17.0.1 on port 1883.
+1554455580: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554455580: Socket error on client CSCO-MNEIDING, disconnecting.
+1554455671: Socket error on client NeverLostLightController, disconnecting.
+1554455672: New connection from 172.17.0.1 on port 1883.
+1554455672: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554455675: Socket error on client NeverLostLightController, disconnecting.
+1554455675: New connection from 172.17.0.1 on port 1883.
+1554455675: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554455766: Client NeverLostLightController has exceeded timeout, disconnecting.
+1554455766: Socket error on client NeverLostLightController, disconnecting.
+1554457031: New connection from 172.17.0.1 on port 1883.
+1554457031: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554457174: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554458494: Socket error on client SignifyLost, disconnecting.
+1554458497: Socket error on client SignifyHelp, disconnecting.
+1554458499: New client connected from ::ffff:172.17.0.1 as SignifyHelp (c1, k60).
+1554458503: New client connected from ::ffff:172.17.0.1 as SignifyLost (c1, k60).
+1554458504: New connection from 172.17.0.1 on port 1883.
+1554458504: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554458507: Socket error on client JBS-PY-001, disconnecting.
+1554458554: New connection from 172.17.0.1 on port 1883.
+1554458554: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554458557: Socket error on client JBS-PY-001, disconnecting.
+1554458569: New connection from 172.17.0.1 on port 1883.
+1554458569: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554458572: Socket error on client JBS-PY-001, disconnecting.
+1554458599: New connection from 172.17.0.1 on port 1883.
+1554458599: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554458599: Socket error on client CSCO-MNEIDING, disconnecting.
+1554458658: New connection from 172.17.0.1 on port 1883.
+1554458658: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554458658: Socket error on client JBS-PY-001, disconnecting.
+1554458692: New connection from 172.17.0.1 on port 1883.
+1554458692: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554458692: Socket error on client JBS-PY-001, disconnecting.
+1554458693: Socket error on client NeverLostLightController, disconnecting.
+1554458698: New connection from 172.17.0.1 on port 1883.
+1554458698: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554458706: New connection from 172.17.0.1 on port 1883.
+1554458706: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554458706: Socket error on client JBS-PY-001, disconnecting.
+1554458720: New connection from 172.17.0.1 on port 1883.
+1554458720: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554458720: Socket error on client JBS-PY-001, disconnecting.
+1554458849: New connection from 172.17.0.1 on port 1883.
+1554458849: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554458850: Socket error on client JBS-PY-001, disconnecting.
+1554458855: New connection from 172.17.0.1 on port 1883.
+1554458855: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554458855: Socket error on client CSCO-MNEIDING, disconnecting.
+1554458878: New connection from 172.17.0.1 on port 1883.
+1554458878: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554458878: Socket error on client JBS-PY-001, disconnecting.
+1554458884: New connection from 172.17.0.1 on port 1883.
+1554458884: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554458884: Socket error on client CSCO-MNEIDING, disconnecting.
+1554458973: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554458977: New connection from 172.17.0.1 on port 1883.
+1554458977: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554458978: Socket error on client JBS-PY-001, disconnecting.
+1554459029: Socket error on client NeverLostLightController, disconnecting.
+1554459029: New connection from 172.17.0.1 on port 1883.
+1554459029: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554459041: New connection from 172.17.0.1 on port 1883.
+1554459041: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554459042: Socket error on client JBS-PY-001, disconnecting.
+1554459100: Socket error on client NeverLostLightController, disconnecting.
+1554459101: New connection from 172.17.0.1 on port 1883.
+1554459101: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554459106: Socket error on client NeverLostLightController, disconnecting.
+1554459106: New connection from 172.17.0.1 on port 1883.
+1554459106: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554459135: New connection from 172.17.0.1 on port 1883.
+1554459135: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554459136: Socket error on client JBS-PY-001, disconnecting.
+1554459158: Socket error on client NeverLostLightController, disconnecting.
+1554459159: New connection from 172.17.0.1 on port 1883.
+1554459159: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554460030: New connection from 172.17.0.1 on port 1883.
+1554460030: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554460032: Socket error on client JBS-PY-001, disconnecting.
+1554460140: New connection from 172.17.0.1 on port 1883.
+1554460140: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554460141: Socket error on client JBS-PY-001, disconnecting.
+1554460151: New connection from 172.17.0.1 on port 1883.
+1554460151: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554460153: Socket error on client JBS-PY-001, disconnecting.
+1554460158: New connection from 172.17.0.1 on port 1883.
+1554460158: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554460159: Socket error on client JBS-PY-001, disconnecting.
+1554460773: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554460819: New connection from 172.17.0.1 on port 1883.
+1554460819: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554460821: Socket error on client JBS-PY-001, disconnecting.
+1554460847: New connection from 172.17.0.1 on port 1883.
+1554460847: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554460849: Socket error on client JBS-PY-001, disconnecting.
+1554460861: New connection from 172.17.0.1 on port 1883.
+1554460861: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554460864: Socket error on client JBS-PY-001, disconnecting.
+1554460870: New connection from 172.17.0.1 on port 1883.
+1554460870: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554460871: Socket error on client JBS-PY-001, disconnecting.
+1554460880: New connection from 172.17.0.1 on port 1883.
+1554460880: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554460880: Socket error on client CSCO-MNEIDING, disconnecting.
+1554462573: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554462722: New connection from 172.17.0.1 on port 1883.
+1554462722: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554462725: Socket error on client JBS-PY-001, disconnecting.
+1554462745: Client SignifyLost already connected, closing old connection.
+1554462745: New client connected from ::ffff:172.17.0.1 as SignifyLost (c1, k60).
+1554462745: Socket error on client SignifyLost, disconnecting.
+1554462750: Socket error on client SignifyLost, disconnecting.
+1554462753: New client connected from ::ffff:172.17.0.1 as SignifyLost (c1, k60).
+1554462756: Socket error on client SignifyHelp, disconnecting.
+1554462757: New connection from 172.17.0.1 on port 1883.
+1554462757: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554462758: New client connected from ::ffff:172.17.0.1 as SignifyHelp (c1, k60).
+1554462758: Socket error on client JBS-PY-001, disconnecting.
+1554462780: New connection from 172.17.0.1 on port 1883.
+1554462780: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554462784: Socket error on client JBS-PY-001, disconnecting.
+1554462872: New connection from 172.17.0.1 on port 1883.
+1554462872: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554462872: Socket error on client CSCO-MNEIDING, disconnecting.
+1554462884: New connection from 172.17.0.1 on port 1883.
+1554462884: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554462884: Socket error on client CSCO-MNEIDING, disconnecting.
+1554462891: New connection from 172.17.0.1 on port 1883.
+1554462891: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554462891: Socket error on client CSCO-MNEIDING, disconnecting.
+1554462939: Socket error on client SignifyHelp, disconnecting.
+1554462942: Socket error on client SignifyLost, disconnecting.
+1554462945: New client connected from ::ffff:172.17.0.1 as SignifyLost (c1, k60).
+1554462947: New client connected from ::ffff:172.17.0.1 as SignifyHelp (c1, k60).
+1554462997: New connection from 172.17.0.1 on port 1883.
+1554462997: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554462998: Socket error on client JBS-PY-001, disconnecting.
+1554463700: Socket error on client NeverLostLightController, disconnecting.
+1554463701: New connection from 172.17.0.1 on port 1883.
+1554463701: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554464373: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554464507: Socket error on client NeverLostLightController, disconnecting.
+1554464508: New connection from 172.17.0.1 on port 1883.
+1554464508: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554464899: New connection from 172.17.0.1 on port 1883.
+1554464899: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554464899: Socket error on client CSCO-MNEIDING, disconnecting.
+1554465753: New connection from 172.17.0.1 on port 1883.
+1554465753: New client connected from 172.17.0.1 as JBS-PY-002 (c1, k60).
+1554465753: Socket error on client JBS-PY-002, disconnecting.
+1554466173: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554466298: Socket error on client SignifyLost, disconnecting.
+1554466302: Socket error on client SignifyHelp, disconnecting.
+1554466304: New client connected from ::ffff:172.17.0.1 as SignifyHelp (c1, k60).
+1554466308: New client connected from ::ffff:172.17.0.1 as SignifyLost (c1, k60).
+1554467187: New connection from 172.17.0.1 on port 1883.
+1554467187: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554467189: Socket error on client JBS-PY-001, disconnecting.
+1554467214: New connection from 172.17.0.1 on port 1883.
+1554467214: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554467216: Socket error on client JBS-PY-001, disconnecting.
+1554467225: New connection from 172.17.0.1 on port 1883.
+1554467225: New client connected from 172.17.0.1 as JBS-PY-001 (c1, k60).
+1554467228: Socket error on client JBS-PY-001, disconnecting.
+1554467251: New connection from 172.17.0.1 on port 1883.
+1554467251: New client connected from 172.17.0.1 as CSCO-MNEIDING (c1, k60).
+1554467251: Socket error on client CSCO-MNEIDING, disconnecting.
+1554467972: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1554468241: Socket error on client NeverLostLightController, disconnecting.
+1554468242: New connection from 172.17.0.1 on port 1883.
+1554468242: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554468250: Socket error on client NeverLostLightController, disconnecting.
+1554468251: New connection from 172.17.0.1 on port 1883.
+1554468251: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554468261: Socket error on client NeverLostLightController, disconnecting.
+1554468261: New connection from 172.17.0.1 on port 1883.
+1554468261: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554469322: Socket error on client NeverLostLightController, disconnecting.
+1554469322: New connection from 172.17.0.1 on port 1883.
+1554469322: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554469335: Socket error on client NeverLostLightController, disconnecting.
+1554469335: New connection from 172.17.0.1 on port 1883.
+1554469335: New client connected from 172.17.0.1 as NeverLostLightController (c1, k60).
+1554469772: Saving in-memory database to /mosquitto/data/mosquitto.db.
